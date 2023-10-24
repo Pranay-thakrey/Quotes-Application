@@ -1,0 +1,156 @@
+/* Header.css */
+.navbar {
+    position: relative;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 0;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fadeIn 2s ease-in-out; /* Fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start with 0 opacity (completely transparent) */
+    }
+    100% {
+      opacity: 1; /* End with 1 opacity (fully visible) */
+    }
+  }
+  
+  /* Styles for Webpage Title */
+.webpage-title {
+    background-color: #333; /* Background color of the title bar */
+    color: white; /* Text color of the title */
+    padding: 10px; /* Padding around the title text */
+    text-align: center; /* Center align the title text */
+    font-size: 28px; /* Font size of the title */
+    margin: 0; /* Remove any default margin */
+    margin-bottom: 5px;
+  }
+
+  /* Styles for Footer */
+.footer {
+    background-color: #d1c511; /* Background color of the footer */
+    color: white; /* Text color of the footer content */
+    padding: 20px; /* Padding around the footer content */
+    text-align: center; /* Center align the text */
+    margin-top: 5%;
+  }
+  
+  .footer a {
+    color: #fff; /* Text color of the link inside the footer */
+    text-decoration: underline; /* Underline the link text */
+    margin-left: 10px; /* Add margin to the left of the link */
+  }
+  
+  /* Styles for Button */
+.button {
+    background-color: #4CAF50; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center align the text */
+    text-decoration: none; /* Remove underline from the text */
+    display: inline-block; /* Make the button a block element */
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners to the button */
+  }
+  
+  /* Change button color on hover */
+  .button:hover {
+    background-color: #45a049; /* Darker background color on hover */
+  }
+  
+  .button2 {
+    background-color: #069cf4; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center align the text */
+    text-decoration: none; /* Remove underline from the text */
+    display: inline-block; /* Make the button a block element */
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners to the button */
+    margin-left: 20px;
+  }
+  
+  /* Change button color on hover */
+  .button2:hover {
+    background-color: #45a049; /* Darker background color on hover */
+  }
+  
+  /* GetImage.css */
+.image-container {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-item {
+    margin: 10px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .quotes-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .button2 {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .quote-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quote-item {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+  }
+  
+  .quote-text {
+    font-size: 18px;
+  }
+  
+  .author {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+  
